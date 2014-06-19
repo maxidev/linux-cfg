@@ -21,6 +21,10 @@ linux-cfg
 
 	sudo apt-get install git nodejs npm dropbox sublime-text atom vim
 
+####Tools Packages
+
+	sudo apt-get install shutter shotwell
+
 ###Configurations
 
 ####Fonts
