@@ -1,7 +1,7 @@
 linux-cfg
 =========
 
-##My Linux configuration and packages
+##My Linux packages and configurations
 
 ###Version: Linux Mint 17 Qiana x64
 
