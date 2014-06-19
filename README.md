@@ -22,7 +22,7 @@ sudo apt-get install clementine smplayer qtbittorrent
 **Programming Packages**
 
 ```
-sudo apt-get install git nodejs
+sudo apt-get install git nodejs dropbox
 
 ```
 
@@ -36,4 +36,17 @@ sudo apt-add-repository ppa:bitcoin/bitcoin
 ```
 
 
-***Cinnamon Applets***
+**Cinnamon Applets**
+
+```
+Applets: "CPU Temperature Indicator" "Github Explorer" "Multi-core System Monitor"
+"Simple Memory Monitor"
+
+```
+
+**Cinnamon Desklets**
+
+```
+Desklets: "Weather Desklet" "Sticky Notes"
+
+```
