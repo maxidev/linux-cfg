@@ -6,11 +6,9 @@ linux-cfg
 
 ##Base Packages
 
-```
-sudo apt-get install build-essential htop ccze iptraf nmap guake
-google-chrome-stable thunderbird filezilla tmux
 
-```
+	sudo apt-get install build-essential htop ccze iptraf nmap guake
+	google-chrome-stable thunderbird filezilla tmux
 
 **Media Packages**
 
