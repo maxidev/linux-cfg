@@ -8,7 +8,7 @@ linux-cfg
 ####Base Packages
 
 
-	sudo apt-get install build-essential htop ccze iptraf nmap guake google-chrome-stable thunderbird filezilla tmux virtualbox unrar zip unzip p7zip-full p7zip-rar rar
+	sudo apt-get install build-essential htop ccze iptraf nmap guake google-chrome-stable thunderbird filezilla tmux virtualbox unrar zip unzip p7zip-full p7zip-rar rar tree
 
 ####Media Packages
 
