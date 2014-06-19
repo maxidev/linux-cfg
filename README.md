@@ -20,7 +20,7 @@ linux-cfg
 ####Programming Packages
 
 
-	sudo apt-get install git nodejs dropbox sublime-text atom vim
+	sudo apt-get install git nodejs npm dropbox sublime-text atom vim
 
 ###Configurations
 
@@ -54,4 +54,5 @@ https://powerline.readthedocs.org/en/latest/installation/linux.html#font-install
 
 ####Cinnamon Desklets
 
-	Desklets: 'Weather Desklet' 'Sticky Notes'
+	Desklets: 'Weather Desklet (Rosario AR - code: 3838583)'
+	'Sticky Notes'
