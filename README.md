@@ -10,7 +10,7 @@ linux-cfg
 
 
 	sudo apt-get install build-essential htop ccze iptraf nmap guake
-	google-chrome-stable thunderbird filezilla tmux
+	google-chrome-stable thunderbird filezilla tmux virtualbox
 
 ####Media Packages
 
@@ -38,7 +38,8 @@ Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/theme
 
 ####Powerline Shell
 
-Powerline Prompt: https://github.com/milkbikis/powerline-shell | https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
+Powerline Prompt: https://github.com/milkbikis/powerline-shell
+https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
 
 
 ####PPAs
