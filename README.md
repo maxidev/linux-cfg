@@ -13,7 +13,7 @@ linux-config
 ####Media Packages
 
 
-	sudo apt-get install clementine smplayer qbittorrent
+	sudo apt-get install clementine mocp smplayer qbittorrent
 
 
 ####Programming Packages
