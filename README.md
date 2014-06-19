@@ -2,10 +2,10 @@ linux-cfg
 =========
 
 ##My Linux configuration and packages
-##Linux Mint 17 Qiana x64
 
+###Version: Linux Mint 17 Qiana x64
 
-##Packages
+###Packages
 
 ####Base Packages
 
