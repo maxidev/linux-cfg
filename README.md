@@ -8,12 +8,11 @@ linux-config
 ####Base Packages
 
 
-	sudo apt-get install build-essential htop ccze iptraf nmap guake google-chrome-stable thunderbird filezilla tmux virtualbox unrar zip unzip p7zip-full p7zip-rar rar tree
+	sudo apt-get install build-essential htop ccze iptraf nmap guake tmux virtualbox unrar zip unzip p7zip-full p7zip-rar rar tree
 
 ####Media Packages
 
-
-	sudo apt-get install clementine moc smplayer qbittorrent
+	sudo apt-get install clementine moc smplayer qbittorrent google-chrome-stable thunderbird filezilla
 
 
 ####Programming Packages
