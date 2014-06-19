@@ -28,9 +28,14 @@ linux-cfg
 ####Fonts
 
 
-	Inconsolata.otf http://levien.com/type/myfonts/inconsolata.html
+Inconsolata.otf http://levien.com/type/myfonts/inconsolata.html
 
-###PPAs
+
+####GTK Theme
+
+Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/themes.ppa
+
+####PPAs
 
 
 	sudo apt-add-repository ppa:bitcoin/bitcoin
