@@ -23,7 +23,7 @@ linux-cfg
 
 ####Tools Packages
 
-	sudo apt-get install shutter shotwell
+	sudo apt-get install shutter shotwell network-manager-openvpn-gnome
 
 ###Configurations
 
