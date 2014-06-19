@@ -5,8 +5,6 @@ linux-cfg
 
 ###Version: Linux Mint 17 Qiana x64
 
-###Packages
-
 ####Base Packages
 
 
