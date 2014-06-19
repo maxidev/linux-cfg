@@ -35,6 +35,12 @@ Inconsolata.otf http://levien.com/type/myfonts/inconsolata.html
 
 Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/themes.ppa
 
+
+####Powerline Shell
+
+Powerline Prompt: https://github.com/milkbikis/powerline-shell | https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
+
+
 ####PPAs
 
 
