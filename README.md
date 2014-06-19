@@ -1,7 +1,7 @@
 linux-cfg
 =========
 
-My Linux Config
+My Linux configuration and packages
 
 
 **Base Packages**
@@ -22,6 +22,15 @@ sudo apt-get install clementine smplayer qtbittorrent
 **Programming Packages**
 
 ```
-sudo apt-get install nodejs
+sudo apt-get install git nodejs
+
+```
+
+
+**PPAs**
+
+```
+
+sudo apt-add-repository ppa:bitcoin/bitcoin
 
 ```
