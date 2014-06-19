@@ -4,6 +4,9 @@ linux-cfg
 My Linux Config
 
 
+** Base Packages
+
 ```
-test
+sudo apt-get install build-essential htop ccze iptraf nmap guake
+
 ```
