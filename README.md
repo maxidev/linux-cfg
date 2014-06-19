@@ -34,3 +34,6 @@ sudo apt-get install git nodejs
 sudo apt-add-repository ppa:bitcoin/bitcoin
 
 ```
+
+
+***Cinnamon Applets***
