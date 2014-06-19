@@ -12,7 +12,11 @@ linux-config
 
 ####Media Packages
 
-	sudo apt-get install clementine moc smplayer qbittorrent google-chrome-stable thunderbird filezilla irssi
+	sudo apt-get install clementine moc smplayer qbittorrent google-chrome-stable thunderbird filezilla irssi pedrito
+ad
+
+as
+
 
 
 ####Programming Packages
