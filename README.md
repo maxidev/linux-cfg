@@ -1,4 +1,4 @@
-linux-cfg
+linux-config
 =========
 
 ##Packages and configurations
