@@ -8,7 +8,7 @@ My Linux configuration and packages
 
 ```
 sudo apt-get install build-essential htop ccze iptraf nmap guake
-google-chrome-stable thunderbird filezilla sublime-text
+google-chrome-stable thunderbird filezilla
 
 ```
 
@@ -16,14 +16,12 @@ google-chrome-stable thunderbird filezilla sublime-text
 
 ```
 sudo apt-get install clementine smplayer qtbittorrent
-
 ```
 
 **Programming Packages**
 
 ```
-sudo apt-get install git nodejs dropbox
-
+sudo apt-get install git nodejs dropbox sublime-text atom vim
 ```
 
 
@@ -32,7 +30,6 @@ sudo apt-get install git nodejs dropbox
 ```
 
 sudo apt-add-repository ppa:bitcoin/bitcoin
-
 ```
 
 
@@ -41,12 +38,9 @@ sudo apt-add-repository ppa:bitcoin/bitcoin
 ```
 Applets: "CPU Temperature Indicator" "Github Explorer" "Multi-core System Monitor"
 "Simple Memory Monitor"
-
 ```
 
 **Cinnamon Desklets**
-
 ```
 Desklets: "Weather Desklet" "Sticky Notes"
-
 ```
