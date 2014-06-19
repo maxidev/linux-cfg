@@ -54,5 +54,4 @@ https://powerline.readthedocs.org/en/latest/installation/linux.html#font-install
 
 ####Cinnamon Desklets
 
-	Desklets: 'Weather Desklet (Rosario AR - code: 3838583)'
-	'Sticky Notes'
+	Desklets: 'Weather Desklet (Rosario AR - code: 3838583)' - 'Sticky Notes'
