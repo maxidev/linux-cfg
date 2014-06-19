@@ -29,8 +29,9 @@ linux-cfg
 
 ####Fonts
 
+	sudo apt-get install typecatcher
 
-Inconsolata.otf http://levien.com/type/myfonts/inconsolata.html
+Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 
 
 ####GTK Theme
