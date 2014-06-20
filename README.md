@@ -32,6 +32,10 @@ linux-config
 Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 
 
+####For MOC player dark theme
+
+	touch ~/.moc/config & add "Theme                 = nightly_theme"
+
 ####GTK Theme
 
 Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/themes.ppa
