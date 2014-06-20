@@ -8,7 +8,7 @@ linux-config
 ####Base Packages
 
 
-	sudo apt-get install build-essential htop ccze iptraf nmap guake tmux virtualbox unrar zip unzip p7zip-full p7zip-rar rar tree
+	sudo apt-get install build-essential htop ccze iptraf nmap guake tmux virtualbox unrar zip unzip p7zip-full p7zip-rar rar tree netcat
 
 ####Media Packages
 
