@@ -20,7 +20,7 @@ linux-config
 
 ####Optional Packages
 
-	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome
+	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome skype
 
 ###Configurations
 
@@ -47,7 +47,6 @@ https://powerline.readthedocs.org/en/latest/installation/linux.html#font-install
 
 
 ####PPAs
-
 
 	sudo apt-add-repository ppa:bitcoin/bitcoin
 
