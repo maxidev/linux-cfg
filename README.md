@@ -20,7 +20,8 @@ linux-config
 
 ####Optional Packages
 
-	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome skype
+	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome skype apache2-utils
+
 
 ###Configurations
 
