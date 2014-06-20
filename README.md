@@ -34,7 +34,7 @@ Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 
 ####For MOC player dark theme
 
-	touch ~/.moc/config & add "Theme                 = nightly_theme"
+	touch ~/.moc/config && echo "Theme = nightly_theme" > ~/.moc/config
 
 ####GTK Theme
 
