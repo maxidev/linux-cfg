@@ -34,7 +34,7 @@ Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 
 ####Virtualbox Shared Folders
 
-	sudo adduser xxxxxxx vboxsf to solve 'permission denied'
+	sudo adduser xxxxxxx vboxsf to solve 'permission denied' on folder opening
 
 ####MOC player dark theme
 
