@@ -32,7 +32,11 @@ linux-config
 Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 
 
-####For MOC player dark theme
+####Virtualbox Shared Folders
+
+	sudo adduser xxxxxxx vboxsf to solve 'permission denied'
+
+####MOC player dark theme
 
 	touch ~/.moc/config && echo "Theme = nightly_theme" > ~/.moc/config
 
