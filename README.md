@@ -1,7 +1,7 @@
 linux-config
 =========
 
-##Packages and configurations
+##Packages and configurations.
 
 ###Version: Linux Mint 17 Qiana x64 Cinnamon edition
 
@@ -47,8 +47,7 @@ Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/theme
 
 ####Powerline Shell
 
-Powerline Prompt: https://github.com/milkbikis/powerline-shell
-https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
+Follow this guide: https://github.com/maxidev/powerline-installation
 
 
 ####PPAs
