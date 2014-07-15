@@ -52,7 +52,11 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 
 ####PPAs
 
+#####Bitcoin
 	sudo apt-add-repository ppa:bitcoin/bitcoin
+
+#####Synapse launcher
+	sudo apt-add-repository ppa:synapse-core/testing
 
 #### Cinnamon Applets
 
