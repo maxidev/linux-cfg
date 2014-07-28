@@ -7,20 +7,19 @@ linux-config
 
 ####Base Packages
 
-
-	sudo apt-get install build-essential htop ccze iptraf nmap guake tmux  unrar zip unzip p7zip-full p7zip-rar rar tree netcat
+	sudo apt-get install build-essential htop ccze iptraf nmap guake tmux unrar zip unzip p7zip-full p7zip-rar rar tree netcat
 
 ####Media Packages
 
-	sudo apt-get install clementine moc smplayer qbittorrent google-chrome-stable thunderbird filezilla irssi shutter
+	sudo apt-get install clementine moc smplayer qbittorrent thunderbird filezilla irssi shutter
 
 ####Programming Packages
 
-	sudo apt-get install git nodejs npm dropbox sublime-text atom vim
+	sudo apt-get install git dropbox vim
 
 ####Optional Packages
 
-	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome skype apache2-utils
+	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome apache2-utils
 
 
 ###Configurations
