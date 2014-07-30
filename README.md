@@ -19,7 +19,7 @@ linux-config
 
 ####Optional Packages
 
-	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome apache2-utils
+	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome
 
 
 ###Configurations
