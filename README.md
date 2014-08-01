@@ -48,11 +48,9 @@ Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/theme
 
 Follow this guide: https://github.com/maxidev/powerline-installation
 
-####Tmux Conf
+####Tmux Conf (edit or create ~./tmux.conf)
 
-	#Open Tmux with alt+a
 	set-option -g prefix M-a
-	
 	set -g status off
 	set -g default-terminal "screen-256color"
 
