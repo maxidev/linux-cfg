@@ -11,7 +11,7 @@ linux-config
 
 ####Media Packages
 
-	sudo apt-get install clementine moc smplayer qbittorrent thunderbird filezilla irssi shutter
+	sudo apt-get install clementine moc smplayer thunderbird filezilla shutter
 
 ####Programming Packages
 
