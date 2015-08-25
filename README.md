@@ -78,3 +78,8 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 ####Cinnamon Desklets
 
 	Desklets: 'Weather Desklet (Rosario AR - code: 3838583)' - 'Sticky Notes'
+	
+####FIX Google Chrome bad icon
+
+	sudo nano /usr/share/applications/google-chrome.desktop
+	Add: StartupWMClass=Google-chrome-stable to each entry
