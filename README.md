@@ -22,6 +22,12 @@ linux-config
 	sudo add-apt-repository ppa:xorg-edgers/ppa
 	sudo apt-get update
 	sudo apt-get install nvidia-352 nvidia-setting
+	
+####Plank Dock
+
+	sudo add-apt-repository ppa:ricotz/docky # <- is not a typo
+	sudo apt-get update
+	sudo apt-get install plank
 
 ###Configurations
 
