@@ -17,6 +17,12 @@ linux-config
 
 	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome vim
 
+####Nvidia Drivers install
+
+	sudo add-apt-repository ppa:xorg-edgers/ppa
+	sudo apt-get update
+	sudo apt-get install nvidia-352 nvidia-setting
+
 ###Configurations
 
 ####Fonts
@@ -78,3 +84,5 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 
 	sudo nano /usr/share/applications/google-chrome.desktop
 	Add: StartupWMClass=Google-chrome-stable to each entry
+	
+
