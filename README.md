@@ -11,7 +11,7 @@ linux-config
 
 ####Media Packages
 
-	sudo apt-get install clementine moc smplayer thunderbird filezilla shutter plank dropbox
+	sudo apt-get install clementine moc smplayer thunderbird filezilla dropbox
 
 ####Optional Packages
 
