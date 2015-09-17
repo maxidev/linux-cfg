@@ -3,7 +3,7 @@ linux-config
 
 ##Packages and configurations.
 
-###Version: Linux Mint 17 Qiana Cinnamon edition
+###Version: Linux Mint 17.2 Rafaela Cinnamon edition
 
 ####Base Packages
 
