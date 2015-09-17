@@ -7,20 +7,15 @@ linux-config
 
 ####Base Packages
 
-	sudo apt-get install build-essential htop ccze iptraf nmap guake gir1.2-gtop-2.0 tmux clipit unrar zip 			unzip p7zip-full p7zip-rar rar tree netcat
+	sudo apt-get install build-essential htop ccze iptraf nmap guake gir1.2-gtop-2.0 tmux clipit unrar zip 			unzip p7zip-full p7zip-rar rar tree netcat git
 
 ####Media Packages
 
-	sudo apt-get install clementine moc smplayer thunderbird filezilla shutter
-
-####Programming Packages
-
-	sudo apt-get install git dropbox vim
+	sudo apt-get install clementine moc smplayer thunderbird filezilla shutter plank dropbox
 
 ####Optional Packages
 
-	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome
-
+	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome vim
 
 ###Configurations
 
