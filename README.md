@@ -55,11 +55,19 @@ Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/theme
 
 Follow this guide: https://github.com/maxidev/powerline-installation
 
-####Tmux Conf (edit or create ~./tmux.conf)
+####Tmux Conf (edit or create ~/.tmux.conf)
 
-	set-option -g prefix M-a
-	set -g status off
-	set -g default-terminal "screen-256color"
+	set-option -g prefix M-a                                                                   
+	set -g status off                                                                          
+	# use UTF8                                                                                 
+	set -g utf8                                                                                
+	set-window-option -g utf8 on                                                               
+	                                                                                           
+	# make tmux display things in 256 colors                                                   
+	set -g default-terminal "screen-256color"                                                  
+	                                                                                           
+	# set scrollback history to 10000 (10k)                                                    
+	set -g history-limit 10000
 
 ####PPAs
 
