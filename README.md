@@ -3,7 +3,7 @@ linux-config
 
 ##Packages and configurations.
 
-###Version: Linux Mint 17.2 Rafaela Cinnamon edition
+###Version: Linux Mint Rafaela Cinnamon edition
 
 ####Base Packages
 
@@ -78,9 +78,11 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 ####PPAs
 
 #####Bitcoin
+
 	sudo apt-add-repository ppa:bitcoin/bitcoin
 
 #####Synapse launcher
+
 	sudo apt-add-repository ppa:synapse-core/testing
 
 #####TLP Power Manager
@@ -92,17 +94,10 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 
 #### Cinnamon Applets
 
+	Applets: 'CPU Temperature Indicator' 'Simple Memory Monitor'
 
-	Applets: 'CPU Temperature Indicator' 'Github Explorer' 'Multi-core System Monitor'
-	'Simple Memory Monitor'
-
-####Cinnamon Desklets
-
-	Desklets: 'Weather Desklet (Rosario AR - code: 3838583)' - 'Sticky Notes'
-	
 ####FIX Google Chrome bad icon
 
 	sudo nano /usr/share/applications/google-chrome.desktop
 	Add: StartupWMClass=Google-chrome-stable to each entry
 	
-
