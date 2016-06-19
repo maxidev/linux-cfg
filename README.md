@@ -87,9 +87,18 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 
 #####TLP Power Manager
 
+	sudo apt-get remove laptop-mode-tools
+	
 	sudo add-apt-repository ppa:linrunner/tlp
-	sudo apt-get update
+	sudo apt-get update 
 	sudo apt-get install tlp tlp-rdw
+	
+	sudo apt-get install smartmontools ethtool
+	
+	Si tu equipo es un ThinkPad, además deberás instalar los siguientes paquetes adicionales,
+	
+	sudo apt-get install tp-smapi-dkms acpi-call-tools 
+	
 	sudo tlp start
 
 #### Cinnamon Applets
