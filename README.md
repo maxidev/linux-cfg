@@ -11,7 +11,7 @@ linux-config
 
 ####Media Packages
 
-	sudo apt-get install clementine moc smplayer thunderbird filezilla dropbox
+	sudo apt-get install clementine moc smplayer thunderbird filezilla dropbox kazam
 
 ####Nvidia Drivers install
 
