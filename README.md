@@ -13,22 +13,12 @@ linux-config
 
 	sudo apt-get install clementine moc smplayer thunderbird filezilla dropbox
 
-####Optional Packages
-
-	sudo apt-get install virtualbox shotwell network-manager-openvpn-gnome vim
-
 ####Nvidia Drivers install
 
 	sudo add-apt-repository ppa:xorg-edgers/ppa
 	sudo apt-get update
 	sudo apt-get install nvidia-352 nvidia-setting
 	
-####Plank Dock
-
-	sudo add-apt-repository ppa:ricotz/docky # <- is not a typo
-	sudo apt-get update
-	sudo apt-get install plank
-
 ###Configurations
 
 ####Grub Customizer
@@ -51,11 +41,6 @@ Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 ####MOC player dark theme
 
 	touch ~/.moc/config && echo "Theme = nightly_theme" > ~/.moc/config
-
-####GTK Theme
-
-Delorean-Dark-Green (3.6-g) https://launchpad.net/~killhellokitty/+archive/themes.ppa
-
 
 ####Powerline Shell
 
@@ -105,8 +90,4 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 
 	Applets: 'CPU Temperature Indicator' 'Simple Memory Monitor'
 
-####FIX Google Chrome bad icon
-
-	sudo nano /usr/share/applications/google-chrome.desktop
-	Add: StartupWMClass=Google-chrome-stable to each entry
 	
