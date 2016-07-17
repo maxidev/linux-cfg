@@ -33,7 +33,6 @@ linux-config
 
 Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
 
-
 ####Virtualbox Shared Folders
 
 	sudo adduser xxxxxxx vboxsf to solve 'permission denied' on folder opening
@@ -61,6 +60,12 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 	set -g history-limit 10000
 
 ####PPAs
+
+#### Keepassx PPA
+
+	sudo add-apt-repository ppa:eugenesan/ppa
+	sudo apt-get update
+	sudo apt-get install keepassx
 
 #####Bitcoin
 
