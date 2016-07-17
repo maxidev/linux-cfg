@@ -26,9 +26,11 @@ linux-config
 	
 	sudo apt-get install fish
 
-	Oh-my-fish: 	curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
+	Oh-my-fish: curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
 
 	theme: omf install bobthefish
+
+	terminal color palette: tango (foreground color #00FF00)
 
 ####Grub Customizer
 
