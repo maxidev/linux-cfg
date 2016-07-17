@@ -21,6 +21,15 @@ linux-config
 	
 ###Configurations
 
+
+####Fish Shell
+	
+	sudo apt-get install fish
+
+	Oh-my-fish: 	curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
+
+	theme: omf install bobthefish
+
 ####Grub Customizer
 
 	sudo add-apt-repository ppa:danielrichter2007/grub-customizer
