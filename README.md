@@ -32,6 +32,8 @@ linux-config
 
 	terminal color palette: tango (foreground color #00FF00)
 
+	font: Liberation Mono for Powerline 11
+
 ####Grub Customizer
 
 	sudo add-apt-repository ppa:danielrichter2007/grub-customizer
