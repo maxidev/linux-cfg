@@ -62,10 +62,7 @@ Follow this guide: https://github.com/maxidev/powerline-installation
 
 	set-option -g prefix M-a                                                                   
 	set -g status off                                                                          
-	# use UTF8                                                                                 
-	set -g utf8                                                                                
-	set-window-option -g utf8 on                                                               
-	                                                                                           
+
 	# make tmux display things in 256 colors                                                   
 	set -g default-terminal "screen-256color"                                                  
 	                                                                                           
