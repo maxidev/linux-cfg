@@ -1,108 +1,183 @@
-linux-config
-=========
+# Linux Configuration
 
-##Packages and configurations.
+A comprehensive collection of packages, tools, and configuration files for setting up a productive Linux environment.
 
-###Version: Linux Mint Sarah Cinnamon edition
+## Overview
 
-####Base Packages
+This repository contains configuration files and installation instructions for setting up a Linux environment based on Linux Mint (Sarah Cinnamon edition). It includes essential packages, shell configuration, themes, and productivity tools.
 
-	sudo apt-get install build-essential htop ccze iptraf nmap guake gir1.2-gtop-2.0 tmux clipit unrar zip unzip p7zip-full p7zip-rar rar tree netcat git httpie
+## Table of Contents
 
-####Media Packages
+- [Base Installation](#base-installation)
+- [Shell Setup](#shell-setup)
+- [Terminal Customization](#terminal-customization)
+- [Development Tools](#development-tools)
+- [Media Tools](#media-tools)
+- [Customization](#customization)
 
-	sudo apt-get install clementine moc smplayer thunderbird filezilla dropbox kazam
+## Base Installation
 
-####Nvidia Drivers install
+Install essential packages for development and system management:
 
-	sudo add-apt-repository ppa:xorg-edgers/ppa
-	sudo apt-get update
-	sudo apt-get install nvidia-352 nvidia-setting
-	
-###Configurations
+```bash
+sudo apt-get install build-essential htop ccze iptraf nmap guake gir1.2-gtop-2.0 tmux \
+                     clipit unrar zip unzip p7zip-full p7zip-rar rar tree netcat git httpie
+```
 
+## Shell Setup
 
-####Fish Shell
-	
-	sudo apt-get install fish
+### Fish Shell
 
-	Oh-my-fish: curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
+Fish is a smart and user-friendly shell with syntax highlighting, autosuggestions, and more.
 
-	theme: omf install bobthefish
+```bash
+sudo apt-get install fish
+```
 
-	terminal color palette: tango (foreground color #00FF00)
+To set Fish as your default shell:
 
-	font: Liberation Mono for Powerline 11
+```bash
+chsh -s $(which fish)
+```
 
-####Grub Customizer
+### Fisher Package Manager
 
-	sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-	sudo apt-get update
-	sudo apt-get install grub-customizer
+Fisher is a plugin manager for Fish:
 
-####Fonts
+```bash
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+```
 
-	sudo apt-get install typecatcher
+### Tide Prompt for Fish
 
-Inconsolata (for programming): http://levien.com/type/myfonts/inconsolata.html
+Install the Tide prompt theme for Fish:
 
-####Virtualbox Shared Folders
+```bash
+fisher install IlanCosman/tide@v6
+```
 
-	sudo adduser xxxxxxx vboxsf to solve 'permission denied' on folder opening
+## Terminal Customization
 
-####MOC player dark theme
+### Fonts
 
-	touch ~/.moc/config && echo "Theme = nightly_theme" > ~/.moc/config
+Several fonts are recommended for optimal terminal experience:
 
-####Powerline Shell
+#### MesloLGS NF (for Tide and Powerline)
 
-Follow this guide: https://github.com/maxidev/powerline-installation
+Download and install the following font files:
+- [MesloLGS NF Regular](https://github.com/IlanCosman/tide/blob/assets/fonts/mesloLGS_NF_regular.ttf?raw=true)
+- [MesloLGS NF Bold](https://github.com/IlanCosman/tide/blob/assets/fonts/mesloLGS_NF_bold.ttf?raw=true)
+- [MesloLGS NF Italic](https://github.com/IlanCosman/tide/blob/assets/fonts/mesloLGS_NF_italic.ttf?raw=true)
+- [MesloLGS NF Bold Italic](https://github.com/IlanCosman/tide/blob/assets/fonts/mesloLGS_NF_bold_italic.ttf?raw=true)
 
-####Tmux Conf (edit or create ~/.tmux.conf)
+To install these fonts:
+1. Download the font files
+2. Double-click each file to open it in the font viewer
+3. Click "Install" for each font
+4. Set the font in your terminal preferences
 
-	set-option -g prefix M-a                                                                   
-	set -g status off                                                                          
+#### Additional Fonts
 
-	# make tmux display things in 256 colors                                                   
-	set -g default-terminal "screen-256color"                                                  
-	                                                                                           
-	# set scrollback history to 10000 (10k)                                                    
-	set -g history-limit 10000
+Install the TypeCatcher font manager to access Google Fonts:
 
-####PPAs
+```bash
+sudo apt-get install typecatcher
+```
 
-#### Keepassx PPA
+[Inconsolata](http://levien.com/type/myfonts/inconsolata.html) is also recommended for programming.
 
-	sudo add-apt-repository ppa:eugenesan/ppa
-	sudo apt-get update
-	sudo apt-get install keepassx
+### Powerline Shell
 
-#####Bitcoin
+For a customized terminal prompt with Git integration and system information:
 
-	sudo apt-add-repository ppa:bitcoin/bitcoin
+Follow the installation guide: [powerline-installation](https://github.com/maxidev/powerline-installation)
 
-#####Synapse launcher
+### Tmux Configuration
 
-	sudo apt-add-repository ppa:synapse-core/testing
+Create or edit `~/.tmux.conf`:
 
-#####TLP Power Manager
+```bash
+set-option -g prefix M-a
+set -g status off
 
-	sudo apt-get remove laptop-mode-tools
-	
-	sudo add-apt-repository ppa:linrunner/tlp
-	sudo apt-get update 
-	sudo apt-get install tlp tlp-rdw
-	
-	sudo apt-get install smartmontools ethtool
-	
-	Si tu equipo es un ThinkPad, además deberás instalar los siguientes paquetes adicionales,
-	
-	sudo apt-get install tp-smapi-dkms acpi-call-tools 
-	
-	sudo tlp start
+# make tmux display things in 256 colors
+set -g default-terminal "screen-256color"
 
-#### Cinnamon Applets
+# set scrollback history to 10000 (10k)
+set -g history-limit 10000
+```
 
-	Applets: 'CPU Temperature Indicator' 'Simple Memory Monitor'
+## Development Tools
 
-	
+All essential development packages are included in the base installation. Additional language-specific tools can be installed as needed.
+
+## Media Tools
+
+### MOC Player Theme
+
+Set up a dark theme for MOC music player:
+
+```bash
+touch ~/.moc/config && echo "Theme = nightly_theme" > ~/.moc/config
+```
+
+## Customization
+
+Add any other customization options and themes here.
+
+## Gnome Extensions
+
+Enhance your Gnome desktop environment with these useful extensions:
+
+```bash
+# List of recommended Gnome extensions
+extensions/auto-power-profile@dmy3k.github.io/
+extensions/bluetooth-quick-connect@bjarosze.gmail.com/
+extensions/blur-my-shell@aunetx/
+extensions/clipboard-indicator@tudmotu.com/
+extensions/ddterm@amezin.github.com/
+extensions/grand-theft-focus@zalckos.github.com/
+extensions/impatience@gfxmonk.net/
+extensions/just-perfection-desktop@just-perfection/
+extensions/openbar@neuromorph/
+extensions/power-profile@fthx/
+extensions/Vitals@CoreCoding.com/
+```
+
+You can install these extensions from the [Gnome Extensions website](https://extensions.gnome.org/) or by using the Gnome Extensions app:
+
+```bash
+sudo apt install gnome-shell-extensions gnome-shell-extension-manager
+```
+
+### Extension Descriptions
+
+- **Auto Power Profile**: Automatically switches power profiles based on battery status
+- **Bluetooth Quick Connect**: Adds quick connect/disconnect options to Bluetooth devices
+- **Blur My Shell**: Adds a blur effect to different parts of the Gnome shell
+- **Clipboard Indicator**: Clipboard manager extension for Gnome
+- **DDTerm**: Drop-down terminal for Gnome
+- **Grand Theft Focus**: Prevents applications from stealing focus
+- **Impatience**: Speeds up Gnome Shell animations
+- **Just Perfection**: Customizes Gnome Shell elements
+- **OpenBar**: Enhances the top bar functionality
+- **Power Profile**: Easily switch between power profiles
+- **Vitals**: System monitoring extension
+
+## Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/maxidev/linux-cfg.git
+   ```
+
+2. Navigate to the repository:
+   ```bash
+   cd linux-cfg
+   ```
+
+3. Follow the installation instructions in each section according to your needs.
+
+## License
+
+This project is open-source and free to use.
