@@ -70,6 +70,18 @@ Download and install the following font files:
 - [MesloLGS NF Italic](https://github.com/IlanCosman/tide/blob/assets/fonts/mesloLGS_NF_italic.ttf?raw=true)
 - [MesloLGS NF Bold Italic](https://github.com/IlanCosman/tide/blob/assets/fonts/mesloLGS_NF_bold_italic.ttf?raw=true)
 
+#### Meslo Nerd Font
+
+For a complete set of Meslo Nerd Fonts with programming ligatures and icons:
+
+```bash
+# Download Meslo Nerd Font
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip
+unzip Meslo.zip -d ~/.fonts
+# Refresh font cache
+fc-cache -fv
+```
+
 To install these fonts:
 1. Download the font files
 2. Double-click each file to open it in the font viewer
