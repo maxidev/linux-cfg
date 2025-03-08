@@ -21,7 +21,7 @@ Install essential packages for development and system management:
 
 ```bash
 sudo apt-get install build-essential htop ccze iptraf nmap guake gir1.2-gtop-2.0 tmux \
-                     clipit unrar zip unzip p7zip-full p7zip-rar rar tree netcat git httpie
+                     clipit unrar zip unzip p7zip-full p7zip-rar rar tree git httpie
 ```
 
 ## Shell Setup
