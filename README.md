@@ -20,8 +20,7 @@ This repository contains configuration files and installation instructions for s
 Install essential packages for development and system management:
 
 ```bash
-sudo apt-get install build-essential htop ccze iptraf nmap guake gir1.2-gtop-2.0 tmux \
-                     clipit unrar zip unzip p7zip-full p7zip-rar rar tree git httpie
+sudo apt-get install build-essential htop ccze iptraf-ng nmap gir1.2-gtop-2.0 tmux unrar zip unzip p7zip-full p7zip-rar rar tree git httpie libfuse2 gedit
 ```
 
 ## Shell Setup
@@ -122,6 +121,25 @@ set -g history-limit 10000
 ## Development Tools
 
 All essential development packages are included in the base installation. Additional language-specific tools can be installed as needed.
+
+### AppImageLauncher
+
+AppImageLauncher makes it easy to integrate AppImage applications with your desktop environment. It allows you to run AppImages without making them executable first, and automatically adds them to your application menu.
+
+```bash
+# Download and install AppImageLauncher
+wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb
+sudo dpkg -i appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb
+sudo apt-get install -f # Install any missing dependencies
+```
+
+Key features:
+- Automatically integrates AppImages into your application launcher with one click
+- Makes AppImages executable without manual chmod commands
+- Provides easy update and removal options through the application menu
+- Centralizes AppImage storage in a dedicated folder
+
+After installation, simply double-click any AppImage file to be prompted with options to run once or integrate it with your system.
 
 ## Media Tools
 
